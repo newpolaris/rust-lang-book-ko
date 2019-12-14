@@ -117,8 +117,8 @@ fn generate_workout(intensity: u32, random_number: u32) {
 }
 ```
 
-<span class="caption">리스트 13-3: 입력값과 `simulated_expensive_calculation` 함
-수 호출에 근거해서 운동 계획을 출력하는 비즈니스 로직</span>
+<span class="caption">리스트 13-3: 입력값과 `simulated_expensive_calculation` 함수
+호출에 근거해서 운동 계획을 출력하는 비즈니스 로직</span>
 
 리스트 13-3 의 코드는 느린 계산 함수에 대해 여려번 호출을 합니다.
 첫번째 `if` 블럭은 `simulated_expensive_calculation` 함수를 두번 호출하고,
