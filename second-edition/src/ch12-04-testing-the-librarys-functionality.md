@@ -47,7 +47,7 @@ Pick three.";
 <span class="caption">Listing 12-15: Creating a failing test for the `search`
 function we wish we had</span>
 
-이 테스트는 “duct.”라는 문자열을 검색합니다. 우리가 검색하는 텍스트는 세 줄로, 한 줄은 “duct.”를 포함합니다. 우리는 `search` 함수에서 반환하는 값이 우리가 예상한 줄이어야 한다고 단정했습니다(assert).
+이 테스트는 “duct”라는 문자열을 검색합니다. 우리가 검색하는 텍스트는 세 줄로, 한 줄은 “duct”를 포함합니다. 우리는 `search` 함수에서 반환하는 값이 우리가 예상한 줄이어야 한다고 단정했습니다(assert).
 
 테스트가 컴파일되지 않기 때문에 우리는 이 테스트를 실행할 수 없으며 `search` 함수가 아직 존재하지 않습니다! 이제 우리는 항목 12-16에서 보듯이 항상 빈 벡터를 반환하는 `search` 함수의 정의를 추가하여 컴파일과 실행하기에 충분한 코드를 추가 할 것입니다. 빈 벡터가 `"safe, fast, productive."`줄을 포함하는 벡터와 일치하지 않기 때문에 테스트는 컴파일되지만 실패해야 합니다.
 
