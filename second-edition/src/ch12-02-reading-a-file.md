@@ -21,8 +21,7 @@ To an admiring bog!
 
 <span class="caption">항목 12-3: 테스트 용으로 적합한 에밀리 딕킨슨의 시 "I'm nobody! Who are you?"</span>
 
-With that in place, edit *src/main.rs* and add code to open the file as shown
-in Listing 12-4:
+텍스트를 제자리에 두고, *src/main.rs*를 편집하여 항목 12-4과 같이 파일을 읽는 코드를 추가합니다
 
 <span class="filename">Filename: src/main.rs</span>
 
