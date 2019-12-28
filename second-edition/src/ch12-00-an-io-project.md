@@ -44,16 +44,6 @@ have really enjoyed this chapter. /Carol-->
 
 또한 우리는 클로저, 반복자, 특성 개체를 간단히 소개하고자 합니다. 이는 13장과 17장에서 상세히 다룰 겁니다.
 
-언제나처럼 `cargo new`를 통해 새로운 프로젝트를 생성합시다. 새 프로젝트의 이름을 `greprs`로 이름 지어서
-시스템에 이미 존재하는 `grep`와 구분짓도록 하겠습니다:
-
-
-```text
-$ cargo new --bin greprs
-     Created binary (application) `greprs` project
-$ cd greprs
-```
-
 <!-- 업데이트된 원본:
 # An I/O Project: Building a Command Line Program
 
